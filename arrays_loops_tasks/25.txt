@@ -1,0 +1,19 @@
+<?php
+
+
+$arr=[];
+$len=rand(5,10);
+
+for($i=0;$i<$len;$i++){
+  $arr[$i]=rand(1,20);
+	 print_r($arr[$i].'<br>');
+
+}
+  
+ sort($arr);
+    
+ print_r('<br>'.$arr[1]);
+  print_r('<br>'.$arr[$len-1]);
+
+
+?>

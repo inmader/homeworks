@@ -1,0 +1,13 @@
+<?php
+
+
+$arr = ['janyary','february','march','april','may','june','july','august','september','october','november','december'];
+$month='november';
+foreach($arr as $a){
+ 
+	if($a==$month){print_r('<strong>'.$a.'<br></strong>');}
+	else{print_r($a.'<br>');}
+}
+
+
+?>

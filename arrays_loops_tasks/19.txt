@@ -1,0 +1,15 @@
+<?php
+
+
+$arr = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday'];
+$day='tuesday';
+foreach($arr as $a){
+ 
+	if(($a=='saturday')||($a=='sunday')){print_r('<b>'.$a.'<br></b>');}
+	elseif($a==$day){print_r('<i>'.$a.'<br></i>');}
+	else{print_r($a.'<br>');}
+	
+}
+
+
+?>

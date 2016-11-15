@@ -1,0 +1,17 @@
+<?php
+
+print_r ("<table>");
+$col=rand(1,10);
+$row=rand(1,10);
+for ($l = 1; $l <= $col; $l++){
+print_r("<tr>"); 
+ for ($i = 1; $i <= $row; $i++){ 
+	  print_r("<td>". $i*$l."</td>");
+ } 
+ print_r("<br></tr>"); 
+}
+
+print_r("</table>"); 
+
+
+?>

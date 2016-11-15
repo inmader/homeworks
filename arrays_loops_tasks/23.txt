@@ -1,0 +1,19 @@
+	
+<?php
+
+$str='123456';
+
+$len=strlen($str);
+$arr=[];
+$count=0;
+for($i=0;$i<$len;$i++){
+	$arr[$i]=(int)$str{$i};
+	$count+=$arr[$i];
+    	
+}
+
+print_r($count);
+
+
+
+?>

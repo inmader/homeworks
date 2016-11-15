@@ -1,0 +1,17 @@
+<?php
+
+
+$arr = ['green'=>'зеленый', 'red'=>'красный','blue'=>'голубой'];
+$len = count($arr);
+
+foreach($arr as $key => $value){
+	$en = $key;
+	print_r($en);
+	$ru = $value;
+	print_r($ru);
+	}
+	
+     
+
+  
+?>

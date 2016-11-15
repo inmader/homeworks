@@ -1,0 +1,16 @@
+<?php
+
+
+$i=0;
+while ($i<10){
+	$i+=2;
+	$j=0;
+	while($j<$i){
+	  $j++;
+	  print_r('x');
+	}
+	print_r('<br>');
+}
+
+
+?>
