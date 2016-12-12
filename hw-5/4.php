@@ -1,4 +1,10 @@
+$form1 = '<form name="myform" method="post">
+<textarea cols="100" rows="10" name="text1" method="post"></textarea><br>
+<input type="submit" />
+</form>';
+echo $form1;
 
+$dir2=$_POST['text1'];
 
 
 function getFilesInDirectory($dir)
@@ -9,9 +15,12 @@ function getFilesInDirectory($dir)
             unset($contents[$index]);
         }
     }
-    return $contents;
+
+    echo ('<pre>');
+    print_r($contents);
+    echo ('</pre>');
 }
 
 
 
-print_r(getFilesInDirectory($dir));
+print_r(getFilesInDirectory($dir2));
